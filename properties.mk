@@ -29,3 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
+
+# Komodo Maintener
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.komodo.maintainer=D4rkKnight21
