@@ -24,7 +24,6 @@ $(call inherit-product, vendor/revengeos/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 REVENGEOS_BUILDTYPE := DHAMPOT
-TARGET_FACE_UNLOCK := true
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
